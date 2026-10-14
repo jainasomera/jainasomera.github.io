@@ -1112,3 +1112,9 @@ body.dark-mode .message-form textarea {
     background: white;
 }
 
+.project-grid {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 25px;
+}
