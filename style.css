@@ -1112,9 +1112,27 @@ body.dark-mode .message-form textarea {
     background: white;
 }
 
-.project-grid {
+/* I-center ang mga project card at ang loob nito */
+.three-column-grid.project-grid {
     display: flex !important;
     justify-content: center !important;
+    align-items: stretch;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
+}
+
+.project-grid .project-card {
+    flex: 0 1 340px;
+    max-width: 100%;
+}
+
+.project-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag-list {
+    justify-content: center;
 }
