@@ -647,7 +647,8 @@ a:focus-visible {
 .tag-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 8px;
+   margin-bottom: 18px;
 }
 
 .tag-list span {
@@ -656,6 +657,10 @@ a:focus-visible {
     background: #F0E5F0;
     color: var(--plum-dark);
     font-size: 11px;
+}
+
+.project-body .button-link {
+    margin-top: 5px; 
 }
 
 /* CONTACT */
